@@ -34,6 +34,7 @@ if (!empty($input)) {
     <?php } ?>
 <br/>
 
+<br/>Send a Message to Pagoda Bot:<br/>
 <form method="POST">
     <input name="input" type="text"/>
     <input type="hidden" value="<?php echo $custid; ?>"/>
